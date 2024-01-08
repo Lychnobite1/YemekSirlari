@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>290705989576-kk3k4be5fmsjlse77tpstloupnqcu9e2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.290705989576-kk3k4be5fmsjlse77tpstloupnqcu9e2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBRaSo0KMSUu1A7YME08kys1mtNyYDP930</string>
+	<key>GCM_SENDER_ID</key>
+	<string>290705989576</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.First.YemekSirlariProje</string>
+	<key>PROJECT_ID</key>
+	<string>yemeksirlariyeni</string>
+	<key>STORAGE_BUCKET</key>
+	<string>yemeksirlariyeni.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:290705989576:ios:800fcb4b9cce5abf87eafd</string>
+</dict>
+</plist>

@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FBBF4032B49A2F2005C5616 /* tarifkaydetbegenmeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBBF4022B49A2F2005C5616 /* tarifkaydetbegenmeViewModel.swift */; };
+		4FD974512B47315100C30840 /* kategoriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD974502B47315100C30840 /* kategoriModel.swift */; };
+		4FD974532B47318000C30840 /* tarifModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD974522B47318000C30840 /* tarifModel.swift */; };
+		4FD974552B4731A100C30840 /* anasayfakategoriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD974542B4731A100C30840 /* anasayfakategoriModel.swift */; };
+		4FD974572B4731BF00C30840 /* resimSecViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD974562B4731BF00C30840 /* resimSecViewModel.swift */; };
+		4FD974592B4731DC00C30840 /* profilresimViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD974582B4731DC00C30840 /* profilresimViewModel.swift */; };
+		4FD9745B2B47324300C30840 /* tariflerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9745A2B47324300C30840 /* tariflerViewModel.swift */; };
+		4FD9745D2B4732DB00C30840 /* KategoriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9745C2B4732DB00C30840 /* KategoriView.swift */; };
+		4FD9745F2B47330100C30840 /* GridTarifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9745E2B47330100C30840 /* GridTarifView.swift */; };
+		4FD974612B47331E00C30840 /* GridTarifCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD974602B47331E00C30840 /* GridTarifCellView.swift */; };
+		4FD974632B47335600C30840 /* TarifDetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD974622B47335600C30840 /* TarifDetayView.swift */; };
+		4FD974652B47339C00C30840 /* profilsayfasiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD974642B47339C00C30840 /* profilsayfasiViewModel.swift */; };
+		4FD974672B4734EA00C30840 /* KategoriCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD974662B4734EA00C30840 /* KategoriCellView.swift */; };
+		4FDB3E272B47216B00B01BB2 /* YemekSirlariProjeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E262B47216B00B01BB2 /* YemekSirlariProjeApp.swift */; };
+		4FDB3E292B47216B00B01BB2 /* AcilisEkraniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E282B47216B00B01BB2 /* AcilisEkraniView.swift */; };
+		4FDB3E2B2B47216C00B01BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB3E2A2B47216C00B01BB2 /* Assets.xcassets */; };
+		4FDB3E2E2B47216C00B01BB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB3E2D2B47216C00B01BB2 /* Preview Assets.xcassets */; };
+		4FDB3E362B47220C00B01BB2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB3E352B47220C00B01BB2 /* FirebaseAuth */; };
+		4FDB3E382B47220C00B01BB2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB3E372B47220C00B01BB2 /* FirebaseDatabase */; };
+		4FDB3E3A2B47220C00B01BB2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB3E392B47220C00B01BB2 /* FirebaseFirestore */; };
+		4FDB3E3C2B47220C00B01BB2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB3E3B2B47220C00B01BB2 /* FirebaseStorage */; };
+		4FDB3E432B4722D900B01BB2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB3E422B4722D900B01BB2 /* SDWebImageSwiftUI */; };
+		4FDB3E4B2B47262500B01BB2 /* AcilisEkranModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E4A2B47262500B01BB2 /* AcilisEkranModel.swift */; };
+		4FDB3E4D2B47265B00B01BB2 /* GirisEkraniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E4C2B47265B00B01BB2 /* GirisEkraniView.swift */; };
+		4FDB3E4F2B47268A00B01BB2 /* girisCikisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E4E2B47268A00B01BB2 /* girisCikisViewModel.swift */; };
+		4FDB3E512B47287A00B01BB2 /* KayitEkraniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E502B47287A00B01BB2 /* KayitEkraniView.swift */; };
+		4FDB3E532B4728B900B01BB2 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E522B4728B900B01BB2 /* TabbarView.swift */; };
+		4FDB3E552B4728C300B01BB2 /* AnasayfaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E542B4728C300B01BB2 /* AnasayfaView.swift */; };
+		4FDB3E572B4728CF00B01BB2 /* BackBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E562B4728CF00B01BB2 /* BackBarView.swift */; };
+		4FDB3E592B4728D900B01BB2 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E582B4728D900B01BB2 /* ProfilView.swift */; };
+		4FDB3E5B2B47297500B01BB2 /* KesfetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E5A2B47297500B01BB2 /* KesfetView.swift */; };
+		4FDB3E5D2B47298200B01BB2 /* TarifEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB3E5C2B47298200B01BB2 /* TarifEkleView.swift */; };
+		4FE5E7C52B482AAA00BDB056 /* BosSayfaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5E7C42B482AAA00BDB056 /* BosSayfaView.swift */; };
+		4FE5E7C72B482AD500BDB056 /* ProfilBilgileriGuncelle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5E7C62B482AD500BDB056 /* ProfilBilgileriGuncelle.swift */; };
+		4FE5E7C92B482AF200BDB056 /* ListTarifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5E7C82B482AF200BDB056 /* ListTarifView.swift */; };
+		4FE5E7CB2B482B4000BDB056 /* ProfilListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5E7CA2B482B4000BDB056 /* ProfilListCellView.swift */; };
+		4FE5E7CD2B482B8700BDB056 /* ProfilGridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5E7CC2B482B8700BDB056 /* ProfilGridCellView.swift */; };
+		4FE5E7CF2B482B9600BDB056 /* ProfilGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5E7CE2B482B9600BDB056 /* ProfilGridView.swift */; };
+		4FE5E7D12B482C4300BDB056 /* AnasayfaKategoriCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5E7D02B482C4300BDB056 /* AnasayfaKategoriCellView.swift */; };
+		4FE5E7D32B482C6C00BDB056 /* AnasayfaKategoriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5E7D22B482C6C00BDB056 /* AnasayfaKategoriView.swift */; };
+		4FEF4F892B4ABE400052991C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF4F882B4ABE400052991C /* HeaderView.swift */; };
+		4FF5A8832B4B0E87009E3F01 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 4FF5A8822B4B0E87009E3F01 /* GoogleSignIn */; };
+		4FF5A8852B4B0E87009E3F01 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4FF5A8842B4B0E87009E3F01 /* GoogleSignInSwift */; };
+		4FF5A8872B4B0F34009E3F01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FF5A8862B4B0F34009E3F01 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FBBF4022B49A2F2005C5616 /* tarifkaydetbegenmeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarifkaydetbegenmeViewModel.swift; sourceTree = "<group>"; };
+		4FD974502B47315100C30840 /* kategoriModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kategoriModel.swift; sourceTree = "<group>"; };
+		4FD974522B47318000C30840 /* tarifModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarifModel.swift; sourceTree = "<group>"; };
+		4FD974542B4731A100C30840 /* anasayfakategoriModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anasayfakategoriModel.swift; sourceTree = "<group>"; };
+		4FD974562B4731BF00C30840 /* resimSecViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resimSecViewModel.swift; sourceTree = "<group>"; };
+		4FD974582B4731DC00C30840 /* profilresimViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilresimViewModel.swift; sourceTree = "<group>"; };
+		4FD9745A2B47324300C30840 /* tariflerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tariflerViewModel.swift; sourceTree = "<group>"; };
+		4FD9745C2B4732DB00C30840 /* KategoriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriView.swift; sourceTree = "<group>"; };
+		4FD9745E2B47330100C30840 /* GridTarifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTarifView.swift; sourceTree = "<group>"; };
+		4FD974602B47331E00C30840 /* GridTarifCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTarifCellView.swift; sourceTree = "<group>"; };
+		4FD974622B47335600C30840 /* TarifDetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifDetayView.swift; sourceTree = "<group>"; };
+		4FD974642B47339C00C30840 /* profilsayfasiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilsayfasiViewModel.swift; sourceTree = "<group>"; };
+		4FD974662B4734EA00C30840 /* KategoriCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriCellView.swift; sourceTree = "<group>"; };
+		4FDB3E232B47216B00B01BB2 /* YemekSirlariProje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YemekSirlariProje.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDB3E262B47216B00B01BB2 /* YemekSirlariProjeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSirlariProjeApp.swift; sourceTree = "<group>"; };
+		4FDB3E282B47216B00B01BB2 /* AcilisEkraniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcilisEkraniView.swift; sourceTree = "<group>"; };
+		4FDB3E2A2B47216C00B01BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FDB3E2D2B47216C00B01BB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FDB3E4A2B47262500B01BB2 /* AcilisEkranModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcilisEkranModel.swift; sourceTree = "<group>"; };
+		4FDB3E4C2B47265B00B01BB2 /* GirisEkraniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisEkraniView.swift; sourceTree = "<group>"; };
+		4FDB3E4E2B47268A00B01BB2 /* girisCikisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = girisCikisViewModel.swift; sourceTree = "<group>"; };
+		4FDB3E502B47287A00B01BB2 /* KayitEkraniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitEkraniView.swift; sourceTree = "<group>"; };
+		4FDB3E522B4728B900B01BB2 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		4FDB3E542B4728C300B01BB2 /* AnasayfaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaView.swift; sourceTree = "<group>"; };
+		4FDB3E562B4728CF00B01BB2 /* BackBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBarView.swift; sourceTree = "<group>"; };
+		4FDB3E582B4728D900B01BB2 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		4FDB3E5A2B47297500B01BB2 /* KesfetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesfetView.swift; sourceTree = "<group>"; };
+		4FDB3E5C2B47298200B01BB2 /* TarifEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifEkleView.swift; sourceTree = "<group>"; };
+		4FE5E7C42B482AAA00BDB056 /* BosSayfaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BosSayfaView.swift; sourceTree = "<group>"; };
+		4FE5E7C62B482AD500BDB056 /* ProfilBilgileriGuncelle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilBilgileriGuncelle.swift; sourceTree = "<group>"; };
+		4FE5E7C82B482AF200BDB056 /* ListTarifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTarifView.swift; sourceTree = "<group>"; };
+		4FE5E7CA2B482B4000BDB056 /* ProfilListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilListCellView.swift; sourceTree = "<group>"; };
+		4FE5E7CC2B482B8700BDB056 /* ProfilGridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilGridCellView.swift; sourceTree = "<group>"; };
+		4FE5E7CE2B482B9600BDB056 /* ProfilGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilGridView.swift; sourceTree = "<group>"; };
+		4FE5E7D02B482C4300BDB056 /* AnasayfaKategoriCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaKategoriCellView.swift; sourceTree = "<group>"; };
+		4FE5E7D22B482C6C00BDB056 /* AnasayfaKategoriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaKategoriView.swift; sourceTree = "<group>"; };
+		4FEF4F882B4ABE400052991C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4FF5A8862B4B0F34009E3F01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4FF5A8882B4B0F85009E3F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FDB3E202B47216B00B01BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDB3E432B4722D900B01BB2 /* SDWebImageSwiftUI in Frameworks */,
+				4FDB3E382B47220C00B01BB2 /* FirebaseDatabase in Frameworks */,
+				4FF5A8852B4B0E87009E3F01 /* GoogleSignInSwift in Frameworks */,
+				4FDB3E3C2B47220C00B01BB2 /* FirebaseStorage in Frameworks */,
+				4FDB3E362B47220C00B01BB2 /* FirebaseAuth in Frameworks */,
+				4FDB3E3A2B47220C00B01BB2 /* FirebaseFirestore in Frameworks */,
+				4FF5A8832B4B0E87009E3F01 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FDB3E1A2B47216B00B01BB2 = {
+			isa = PBXGroup;
+			children = (
+				4FDB3E252B47216B00B01BB2 /* YemekSirlariProje */,
+				4FDB3E242B47216B00B01BB2 /* Products */,
+				4FDB3E3E2B47226900B01BB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FDB3E242B47216B00B01BB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB3E232B47216B00B01BB2 /* YemekSirlariProje.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FDB3E252B47216B00B01BB2 /* YemekSirlariProje */ = {
+			isa = PBXGroup;
+			children = (
+				4FF5A8882B4B0F85009E3F01 /* Info.plist */,
+				4FDB3E492B47232600B01BB2 /* ViewModel */,
+				4FDB3E482B47232000B01BB2 /* Model */,
+				4FDB3E472B47231A00B01BB2 /* View */,
+				4FDB3E262B47216B00B01BB2 /* YemekSirlariProjeApp.swift */,
+				4FF5A8862B4B0F34009E3F01 /* GoogleService-Info.plist */,
+				4FDB3E2A2B47216C00B01BB2 /* Assets.xcassets */,
+				4FDB3E2C2B47216C00B01BB2 /* Preview Content */,
+			);
+			path = YemekSirlariProje;
+			sourceTree = "<group>";
+		};
+		4FDB3E2C2B47216C00B01BB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB3E2D2B47216C00B01BB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FDB3E3E2B47226900B01BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FDB3E472B47231A00B01BB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB3E282B47216B00B01BB2 /* AcilisEkraniView.swift */,
+				4FDB3E4C2B47265B00B01BB2 /* GirisEkraniView.swift */,
+				4FDB3E502B47287A00B01BB2 /* KayitEkraniView.swift */,
+				4FDB3E522B4728B900B01BB2 /* TabbarView.swift */,
+				4FDB3E542B4728C300B01BB2 /* AnasayfaView.swift */,
+				4FDB3E562B4728CF00B01BB2 /* BackBarView.swift */,
+				4FDB3E582B4728D900B01BB2 /* ProfilView.swift */,
+				4FDB3E5A2B47297500B01BB2 /* KesfetView.swift */,
+				4FDB3E5C2B47298200B01BB2 /* TarifEkleView.swift */,
+				4FD9745E2B47330100C30840 /* GridTarifView.swift */,
+				4FD974602B47331E00C30840 /* GridTarifCellView.swift */,
+				4FD974622B47335600C30840 /* TarifDetayView.swift */,
+				4FD9745C2B4732DB00C30840 /* KategoriView.swift */,
+				4FD974662B4734EA00C30840 /* KategoriCellView.swift */,
+				4FE5E7C42B482AAA00BDB056 /* BosSayfaView.swift */,
+				4FE5E7C62B482AD500BDB056 /* ProfilBilgileriGuncelle.swift */,
+				4FE5E7C82B482AF200BDB056 /* ListTarifView.swift */,
+				4FE5E7CA2B482B4000BDB056 /* ProfilListCellView.swift */,
+				4FE5E7CC2B482B8700BDB056 /* ProfilGridCellView.swift */,
+				4FE5E7CE2B482B9600BDB056 /* ProfilGridView.swift */,
+				4FE5E7D02B482C4300BDB056 /* AnasayfaKategoriCellView.swift */,
+				4FE5E7D22B482C6C00BDB056 /* AnasayfaKategoriView.swift */,
+				4FEF4F882B4ABE400052991C /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FDB3E482B47232000B01BB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB3E4A2B47262500B01BB2 /* AcilisEkranModel.swift */,
+				4FD974502B47315100C30840 /* kategoriModel.swift */,
+				4FD974522B47318000C30840 /* tarifModel.swift */,
+				4FD974542B4731A100C30840 /* anasayfakategoriModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FDB3E492B47232600B01BB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4FD974562B4731BF00C30840 /* resimSecViewModel.swift */,
+				4FD974582B4731DC00C30840 /* profilresimViewModel.swift */,
+				4FDB3E4E2B47268A00B01BB2 /* girisCikisViewModel.swift */,
+				4FD9745A2B47324300C30840 /* tariflerViewModel.swift */,
+				4FD974642B47339C00C30840 /* profilsayfasiViewModel.swift */,
+				4FBBF4022B49A2F2005C5616 /* tarifkaydetbegenmeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FDB3E222B47216B00B01BB2 /* YemekSirlariProje */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDB3E312B47216C00B01BB2 /* Build configuration list for PBXNativeTarget "YemekSirlariProje" */;
+			buildPhases = (
+				4FDB3E1F2B47216B00B01BB2 /* Sources */,
+				4FDB3E202B47216B00B01BB2 /* Frameworks */,
+				4FDB3E212B47216B00B01BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YemekSirlariProje;
+			packageProductDependencies = (
+				4FDB3E352B47220C00B01BB2 /* FirebaseAuth */,
+				4FDB3E372B47220C00B01BB2 /* FirebaseDatabase */,
+				4FDB3E392B47220C00B01BB2 /* FirebaseFirestore */,
+				4FDB3E3B2B47220C00B01BB2 /* FirebaseStorage */,
+				4FDB3E422B4722D900B01BB2 /* SDWebImageSwiftUI */,
+				4FF5A8822B4B0E87009E3F01 /* GoogleSignIn */,
+				4FF5A8842B4B0E87009E3F01 /* GoogleSignInSwift */,
+			);
+			productName = YemekSirlariProje;
+			productReference = 4FDB3E232B47216B00B01BB2 /* YemekSirlariProje.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FDB3E1B2B47216B00B01BB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4FDB3E222B47216B00B01BB2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FDB3E1E2B47216B00B01BB2 /* Build configuration list for PBXProject "YemekSirlariProje" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FDB3E1A2B47216B00B01BB2;
+			packageReferences = (
+				4FDB3E342B47220C00B01BB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4FDB3E412B4722D900B01BB2 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				4FF5A8812B4B0E87009E3F01 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 4FDB3E242B47216B00B01BB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FDB3E222B47216B00B01BB2 /* YemekSirlariProje */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FDB3E212B47216B00B01BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDB3E2E2B47216C00B01BB2 /* Preview Assets.xcassets in Resources */,
+				4FF5A8872B4B0F34009E3F01 /* GoogleService-Info.plist in Resources */,
+				4FDB3E2B2B47216C00B01BB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FDB3E1F2B47216B00B01BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDB3E292B47216B00B01BB2 /* AcilisEkraniView.swift in Sources */,
+				4FD974512B47315100C30840 /* kategoriModel.swift in Sources */,
+				4FDB3E572B4728CF00B01BB2 /* BackBarView.swift in Sources */,
+				4FE5E7C92B482AF200BDB056 /* ListTarifView.swift in Sources */,
+				4FE5E7C52B482AAA00BDB056 /* BosSayfaView.swift in Sources */,
+				4FD974632B47335600C30840 /* TarifDetayView.swift in Sources */,
+				4FD974612B47331E00C30840 /* GridTarifCellView.swift in Sources */,
+				4FD9745B2B47324300C30840 /* tariflerViewModel.swift in Sources */,
+				4FE5E7D12B482C4300BDB056 /* AnasayfaKategoriCellView.swift in Sources */,
+				4FD9745D2B4732DB00C30840 /* KategoriView.swift in Sources */,
+				4FE5E7D32B482C6C00BDB056 /* AnasayfaKategoriView.swift in Sources */,
+				4FDB3E532B4728B900B01BB2 /* TabbarView.swift in Sources */,
+				4FD974652B47339C00C30840 /* profilsayfasiViewModel.swift in Sources */,
+				4FD974592B4731DC00C30840 /* profilresimViewModel.swift in Sources */,
+				4FD974672B4734EA00C30840 /* KategoriCellView.swift in Sources */,
+				4FDB3E5B2B47297500B01BB2 /* KesfetView.swift in Sources */,
+				4FDB3E272B47216B00B01BB2 /* YemekSirlariProjeApp.swift in Sources */,
+				4FE5E7C72B482AD500BDB056 /* ProfilBilgileriGuncelle.swift in Sources */,
+				4FD9745F2B47330100C30840 /* GridTarifView.swift in Sources */,
+				4FDB3E4B2B47262500B01BB2 /* AcilisEkranModel.swift in Sources */,
+				4FE5E7CB2B482B4000BDB056 /* ProfilListCellView.swift in Sources */,
+				4FBBF4032B49A2F2005C5616 /* tarifkaydetbegenmeViewModel.swift in Sources */,
+				4FDB3E552B4728C300B01BB2 /* AnasayfaView.swift in Sources */,
+				4FEF4F892B4ABE400052991C /* HeaderView.swift in Sources */,
+				4FD974532B47318000C30840 /* tarifModel.swift in Sources */,
+				4FE5E7CD2B482B8700BDB056 /* ProfilGridCellView.swift in Sources */,
+				4FD974572B4731BF00C30840 /* resimSecViewModel.swift in Sources */,
+				4FD974552B4731A100C30840 /* anasayfakategoriModel.swift in Sources */,
+				4FE5E7CF2B482B9600BDB056 /* ProfilGridView.swift in Sources */,
+				4FDB3E592B4728D900B01BB2 /* ProfilView.swift in Sources */,
+				4FDB3E5D2B47298200B01BB2 /* TarifEkleView.swift in Sources */,
+				4FDB3E512B47287A00B01BB2 /* KayitEkraniView.swift in Sources */,
+				4FDB3E4D2B47265B00B01BB2 /* GirisEkraniView.swift in Sources */,
+				4FDB3E4F2B47268A00B01BB2 /* girisCikisViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FDB3E2F2B47216C00B01BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FDB3E302B47216C00B01BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FDB3E322B47216C00B01BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YemekSirlariProje/Preview Content\"";
+				DEVELOPMENT_TEAM = 48AX6ZH633;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YemekSirlariProje/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.YemekSirlariProje;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FDB3E332B47216C00B01BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YemekSirlariProje/Preview Content\"";
+				DEVELOPMENT_TEAM = 48AX6ZH633;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YemekSirlariProje/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.YemekSirlariProje;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FDB3E1E2B47216B00B01BB2 /* Build configuration list for PBXProject "YemekSirlariProje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDB3E2F2B47216C00B01BB2 /* Debug */,
+				4FDB3E302B47216C00B01BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDB3E312B47216C00B01BB2 /* Build configuration list for PBXNativeTarget "YemekSirlariProje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDB3E322B47216C00B01BB2 /* Debug */,
+				4FDB3E332B47216C00B01BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FDB3E342B47220C00B01BB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		4FDB3E412B4722D900B01BB2 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		4FF5A8812B4B0E87009E3F01 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FDB3E352B47220C00B01BB2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB3E342B47220C00B01BB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4FDB3E372B47220C00B01BB2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB3E342B47220C00B01BB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		4FDB3E392B47220C00B01BB2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB3E342B47220C00B01BB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4FDB3E3B2B47220C00B01BB2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB3E342B47220C00B01BB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		4FDB3E422B4722D900B01BB2 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB3E412B4722D900B01BB2 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		4FF5A8822B4B0E87009E3F01 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FF5A8812B4B0E87009E3F01 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		4FF5A8842B4B0E87009E3F01 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FF5A8812B4B0E87009E3F01 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4FDB3E1B2B47216B00B01BB2 /* Project object */;
+}

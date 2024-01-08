@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "can-you-make-an-cartoon-dish-that-i-can-use-for-a-recipe.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
